@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import Intro from './sections/Intro/intro'
+import Intro from './sections/Intro/Intro'
 import Project from './sections/Project/Project'
 import Publication from './sections/Publication/Publication'
 import Experience from './sections/Experience/Experience'

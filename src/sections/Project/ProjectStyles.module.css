@@ -1,0 +1,62 @@
+.projectContainer {
+    border: 2px solid #555;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+    margin-top: 40px;
+    transition: transform 200ms ease-in-out;
+}
+
+.projectContainer:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 400px;
+    align-self: center;
+}
+
+.githubLink {
+    background-color: #222;
+    border: 2px solid #555;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #aaa;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.githubLink:hover {
+    transform: scale(1.05);
+    background-color: white;
+    border: none;
+}
+
+.githubLink:active {
+    transform: translateY(2px);
+}
+
+.linkLogo {
+    width: 20px;
+}
+
+.paperArch {
+    width: 400px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#projectImage {
+    background-color: #fff;
+}

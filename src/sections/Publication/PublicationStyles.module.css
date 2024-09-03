@@ -1,0 +1,53 @@
+.publicationContainer {
+    border: 2px solid #555;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 10px;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    transition: transform 200ms ease-in-out;
+}
+
+.publicationContainer:hover {
+    transform: scale(1.05);
+}
+
+.paperLink {
+    background-color: #222;
+    border: 2px solid #555;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #aaa;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.paperLink:hover {
+    transform: scale(1.05);
+    background-color: white;
+    border: none;
+}
+
+.paperLink:active {
+    transform: translateY(2px);
+}
+
+.linkLogo {
+    max-width: 20px;
+}
+
+.paperArch {
+    width: 400px;
+    align-self: center;
+    margin-bottom: 20px;
+}

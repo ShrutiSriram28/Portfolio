@@ -3,6 +3,7 @@ import ipms from '../../assets/ipms.png'
 import turkey from '../../assets/System Overview - Turkey.png'
 import fish from '../../assets/fish.png'
 import link from '../../assets/link.png'
+import '../../App.css'
 
 function Project() {
     return (

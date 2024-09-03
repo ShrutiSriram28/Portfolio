@@ -64,8 +64,8 @@ input[type='submit']:active {
 }
 
 .sectionTitle {
-    margin-top: 100px;
-    margin-bottom: 10px;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 
 @media (width >= 800px) {
@@ -78,11 +78,21 @@ input[type='submit']:active {
     form {
         gap: 40px;
     }
+
+    .sectionTitle {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
 }
 
 @media (width >= 1400px) {
     textarea,
     input:not([type='submit']) {
         width: 800px;
+    }
+
+    .sectionTitle {
+        margin-top: 100px;
+        margin-bottom: 30px;
     }
 }

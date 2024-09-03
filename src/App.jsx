@@ -38,7 +38,7 @@ function App() {
 
   const [widthExceeds, setWidthExceeds] = useState(0);
   useEffect(() => {
-    if (windowSize.width > 700) {
+    if (windowSize.width >= 804) {
       setWidthExceeds(1);
     } else {
       setWidthExceeds(0);
@@ -52,10 +52,10 @@ function App() {
       SetExperience(0);
       document.getElementById("project").style.backgroundColor = "#222";
       // document.getElementById("project").style.boxShadow = "3px 2px 2px #555";
-      document.getElementById("publication").style.backgroundColor = "#111";
-      // document.getElementById("publication").style.boxShadow = "0px 0px 0px #111";
-      document.getElementById("experience").style.backgroundColor = "#111";
-      // document.getElementById("experience").style.boxShadow = "0px 0px 0px #111";
+      document.getElementById("publication").style.backgroundColor = "#000";
+      // document.getElementById("publication").style.boxShadow = "0px 0px 0px #000";
+      document.getElementById("experience").style.backgroundColor = "#000";
+      // document.getElementById("experience").style.boxShadow = "0px 0px 0px #000";
     }
   }
 
@@ -64,12 +64,12 @@ function App() {
       SetProject(0);
       SetPublication(1);
       SetExperience(0);
-      document.getElementById("project").style.backgroundColor = "#111";
-      // document.getElementById("project").style.boxShadow = "0px 0px 0px #111";
+      document.getElementById("project").style.backgroundColor = "#000";
+      // document.getElementById("project").style.boxShadow = "0px 0px 0px #000";
       document.getElementById("publication").style.backgroundColor = "#222";
       // document.getElementById("publication").style.boxShadow = "3px 2px 2px #555";
-      document.getElementById("experience").style.backgroundColor = "#111";
-      // document.getElementById("experience").style.boxShadow = "0px 0px 0px #111";
+      document.getElementById("experience").style.backgroundColor = "#000";
+      // document.getElementById("experience").style.boxShadow = "0px 0px 0px #000";
     } 
   }
 
@@ -78,10 +78,10 @@ function App() {
       SetProject(0);
       SetPublication(0);
       SetExperience(1);
-      document.getElementById("project").style.backgroundColor = "#111";
-      // document.getElementById("project").style.boxShadow = "0px 0px 0px #111";
-      document.getElementById("publication").style.backgroundColor = "#111";
-      // document.getElementById("publication").style.boxShadow = "0px 0px 0px #111";
+      document.getElementById("project").style.backgroundColor = "#000";
+      // document.getElementById("project").style.boxShadow = "0px 0px 0px #000";
+      document.getElementById("publication").style.backgroundColor = "#000";
+      // document.getElementById("publication").style.boxShadow = "0px 0px 0px #000";
       document.getElementById("experience").style.backgroundColor = "#222";
       // document.getElementById("experience").style.boxShadow = "3px 2px 2px #555";
     } 

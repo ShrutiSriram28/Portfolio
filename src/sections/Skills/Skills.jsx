@@ -25,6 +25,8 @@ import androidStudio from '../../skillsLogos/developerTools/androidStudio.png'
 import tensorflow from '../../skillsLogos/MLDLStack/tensorflow.png'
 import keras from '../../skillsLogos/MLDLStack/keras.png'
 import pytorch from '../../skillsLogos/MLDLStack/pytorch.png'
+import opencv from '../../skillsLogos/MLDLStack/opencv.png'
+import scikit from '../../skillsLogos/MLDLStack/scikit-learn.png'
 
 import blender from '../../skillsLogos/graphicsSoftware/blender.png'
 import gimp from '../../skillsLogos/graphicsSoftware/gimp.png'
@@ -77,6 +79,8 @@ function Skills() {
                     <SkillList src={tensorflow} skill="TensorFlow"/>
                     <SkillList src={keras} skill="Keras"/>
                     <SkillList src={pytorch} skill="PyTorch"/>
+                    <SkillList src={opencv} skill="OpenCV"/>
+                    <SkillList src={scikit} skill="Scikit-Learn"/>
                 </div>
                 <hr />
             </div>

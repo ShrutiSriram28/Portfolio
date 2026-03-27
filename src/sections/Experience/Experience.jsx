@@ -4,6 +4,7 @@ import citibank from '../../assets/citibank.png'
 import synergy from '../../assets/synergy.png'
 import learningroom from '../../assets/learningroom.png'
 import utaustin from '../../assets/utaustin.png'
+import ascendion from '../../assets/ascendion.png'
 
 function Experience() {
     return (
@@ -11,8 +12,16 @@ function Experience() {
             <section className={styles.experiencesContainer}>
                 <div className={styles.experienceContainer}>
                     <div className={styles.institution}>
+                        <img src={ascendion} className={styles.institutionLogo} alt="Ascendion, Inc. Logo" />
+                        {/* <h3>Graduate Researcher, Graduate Teaching Assistant</h3> */}
+                        <h3>Engineering Intern</h3>
+                    </div>
+                </div>
+                <div className={styles.experienceContainer}>
+                    <div className={styles.institution}>
                         <img src={utaustin} className={styles.institutionLogo} alt="UT Austin Logo" />
-                        <h3>Graduate Teaching Assistant</h3>
+                        {/* <h3>Graduate Researcher, Graduate Teaching Assistant</h3> */}
+                        <h3 style={{ fontSize: '16px', textAlign: 'center' }}>Graduate Researcher (SLD Group), <br></br> Graduate Teaching Assistant</h3>
                     </div>
                 </div>
 

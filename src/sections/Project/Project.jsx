@@ -9,6 +9,39 @@ function Project() {
     return (
         <>
             <div className={styles.projectContainer}>
+                {/* <img src={ipms} className='hover' alt="Cleaning Data using Phi-3" /> */}
+                <h3>Cleaning Data using Phi-3</h3>
+                <a href="https://github.com/ShrutiSriram28/Cleaning-Data-with-Phi3/tree/main" target="_blank">
+                    <button className={styles.githubLink}>
+                        GitHub Repository
+                        <img src={link} className={styles.linkLogo} alt="Link Logo"/>
+                    </button>
+                </a>
+            </div>
+
+            <div className={styles.projectContainer}>
+                {/* <img src={ipms} className='hover' alt="911 Emergency Response System" /> */}
+                <h3>911 Emergency Response System</h3>
+                <a href="https://github.com/Madraceee/llama/tree/main" target="_blank">
+                    <button className={styles.githubLink}>
+                        GitHub Repository
+                        <img src={link} className={styles.linkLogo} alt="Link Logo"/>
+                    </button>
+                </a>
+            </div>
+
+            <div className={styles.projectContainer}>
+                {/* <img src={ipms} className='hover' alt="911 Emergency Response System" /> */}
+                <h3>RAFT</h3>
+                <a href="https://github.com/ShrutiSriram28/Final-Project/tree/main" target="_blank">
+                    <button className={styles.githubLink}>
+                        GitHub Repository
+                        <img src={link} className={styles.linkLogo} alt="Link Logo"/>
+                    </button>
+                </a>
+            </div>
+
+            <div className={styles.projectContainer}>
                 <img src={ipms} className='hover' alt="Investment Portfolio Management System Logo" />
                 <a href="https://github.com/ShrutiSriram28/Investment-Portfolio-Management-System/tree/main" target="_blank">
                     <button className={styles.githubLink}>

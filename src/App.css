@@ -22,7 +22,8 @@ body {
 
 h1, 
 h2, 
-h3, 
+h3,
+h5, 
 p {
   color: var(--text-color);
   margin: 0;
@@ -30,7 +31,8 @@ p {
 }
 
 h2,
-h3, 
+h3,
+h5, 
 p {
   font-family: 'Roboto Mono', monospace;
 }

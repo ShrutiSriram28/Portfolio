@@ -7,6 +7,19 @@ function Publication() {
     return (
         <>
             <div className={styles.publicationContainer}>
+                {/* <img src={block} className={styles.paperArch} alt="Architecture" /> */}
+                <h3>SACNet: Scale-Adaptive Convolutional Decoder for Generalizable Polyp Segmentation </h3>
+                {/* <a href="https://drive.google.com/file/d/1JsP-t-oH0lFVKVPyZXgycja8E5FOmOkS/view" target="_blank">
+                    <button className={styles.paperLink}>
+                        Paper Link
+                        <img src={link} className={styles.linkLogo} alt="Link Logo"/>
+                    </button>
+                </a> */}
+                <br></br>
+                <p style={{ fontSize: '12px' }}>(Submitted to MICCAI 2026)</p>
+            </div>
+
+            <div className={styles.publicationContainer}>
                 <img src={block} className={styles.paperArch} alt="Architecture" />
                 <h3>Multimodal Forgery Detection in Videos using a Tri-Network Model</h3>
                 <a href="https://drive.google.com/file/d/1JsP-t-oH0lFVKVPyZXgycja8E5FOmOkS/view" target="_blank">

@@ -20,13 +20,18 @@ import duckdb from '../../skillsLogos/databases/duckdb.png'
 
 import react from '../../skillsLogos/frameworks/react.png'
 import node from '../../skillsLogos/frameworks/node.png'
-import langchain from '../../skillsLogos/frameworks/langchain.png'
-import ollama from '../../skillsLogos/frameworks/ollama.png'
 import tableau from '../../skillsLogos/frameworks/tableau.png'
 import apachecamel from '../../skillsLogos/frameworks/apachecamel.png'
 import springboot from '../../skillsLogos/frameworks/springboot.png'
 import django from '../../skillsLogos/frameworks/django.png'
 import gradio from '../../skillsLogos/frameworks/gradio.png' 
+
+import langchain from '../../skillsLogos/ai/langchain.png'
+import ollama from '../../skillsLogos/ai/ollama.png'
+import crewai from '../../skillsLogos/ai/crewai.png'
+import cursor from '../../skillsLogos/ai/cursor.png'
+import openai from '../../skillsLogos/ai/openai.png'
+import claude from '../../skillsLogos/ai/claude.png'
 
 import git from '../../skillsLogos/developerTools/git.png'
 import aws from '../../skillsLogos/developerTools/aws.png'
@@ -90,6 +95,19 @@ function Skills() {
                     <SkillList src={scikit} skill="Scikit-Learn"/>
                     <SkillList src={numpy} skill="Numpy"/>
                     <SkillList src={pandas} skill="Pandas"/>
+                </div>
+                <hr />
+            </div>
+
+            <div className={styles.skillList}>
+                <h3 className={styles.skillTitle}>AI Frameworks and Agentic Systems</h3>
+                <div className={styles.skills}>
+                    <SkillList src={openai} skill="OpenAI API"/>
+                    <SkillList src={claude} skill="Claude"/>
+                    <SkillList src={cursor} skill="Cursor"/>
+                    <SkillList src={langchain} skill="LangChain"/>
+                    <SkillList src={ollama} skill="Ollama"/>
+                    <SkillList src={crewai} skill="CrewAI"/>
                 </div>
                 <hr />
             </div>

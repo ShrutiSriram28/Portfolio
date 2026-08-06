@@ -16,7 +16,7 @@ function Publication() {
                     </button>
                 </a> */}
                 <br></br>
-                <p style={{ fontSize: '12px' }}>(Submitted to MICCAI 2026)</p>
+                <p style={{ fontSize: '12px' }}>(Submitted to WACV 2027)</p>
             </div>
 
             <div className={styles.publicationContainer}>

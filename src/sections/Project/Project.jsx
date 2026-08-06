@@ -10,6 +10,17 @@ function Project() {
         <>
             <div className={styles.projectContainer}>
                 {/* <img src={ipms} className='hover' alt="Cleaning Data using Phi-3" /> */}
+                <h3>Review-Based Business Recommendation System</h3>
+                <a href="https://github.com/ShrutiSriram28/review-trust-system/tree/main" target="_blank">
+                    <button className={styles.githubLink}>
+                        GitHub Repository
+                        <img src={link} className={styles.linkLogo} alt="Link Logo"/>
+                    </button>
+                </a>
+            </div>
+
+            <div className={styles.projectContainer}>
+                {/* <img src={ipms} className='hover' alt="Cleaning Data using Phi-3" /> */}
                 <h3>Cleaning Data using Phi-3</h3>
                 <a href="https://github.com/ShrutiSriram28/Cleaning-Data-with-Phi3/tree/main" target="_blank">
                     <button className={styles.githubLink}>
